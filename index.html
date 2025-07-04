@@ -6,6 +6,7 @@
   <title>My Portfolio</title>
   <link href="index.css" rel="stylesheet" type="text/css" />
   <link rel="stylesheet" href="index.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 <body>
   <header>
@@ -38,21 +39,120 @@
 
     <section id="projects" class="projects-section">
       <h2>Projects</h2>
-      <div class="projects-grid">
-        <div class="project-card">
-          <h3>Project 1</h3>
-          <p>Description of your first project</p>
-          <div class="project-links">
-            <a href="#"><i class="fab fa-github"></i> Code</a>
-            <a href="#"><i class="fas fa-external-link-alt"></i> Demo</a>
+      
+      <!-- Easy Level Projects -->
+      <div class="difficulty-category">
+        <h3 class="difficulty-title">
+          <span class="difficulty-badge easy">Easy</span>
+          Beginner Projects
+        </h3>
+        <div class="projects-grid">
+          <div class="project-card easy-project">
+            <h4>Personal Portfolio Website</h4>
+            <p>A responsive personal portfolio website built with HTML, CSS, and JavaScript. Features include smooth scrolling navigation, responsive design, and contact form.</p>
+            <div class="tech-stack">
+              <span class="tech-tag">HTML</span>
+              <span class="tech-tag">CSS</span>
+              <span class="tech-tag">JavaScript</span>
+            </div>
+            <div class="project-links">
+              <a href="#"><i class="fab fa-github"></i> Code</a>
+              <a href="#"><i class="fas fa-external-link-alt"></i> Demo</a>
+            </div>
+          </div>
+          <div class="project-card easy-project">
+            <h4>To-Do List App</h4>
+            <p>A simple to-do list application with add, edit, delete functionality. Uses local storage to persist data between sessions.</p>
+            <div class="tech-stack">
+              <span class="tech-tag">HTML</span>
+              <span class="tech-tag">CSS</span>
+              <span class="tech-tag">JavaScript</span>
+              <span class="tech-tag">Local Storage</span>
+            </div>
+            <div class="project-links">
+              <a href="#"><i class="fab fa-github"></i> Code</a>
+              <a href="#"><i class="fas fa-external-link-alt"></i> Demo</a>
+            </div>
           </div>
         </div>
-        <div class="project-card">
-          <h3>Project 2</h3>
-          <p>Description of your second project</p>
-          <div class="project-links">
-            <a href="#"><i class="fab fa-github"></i> Code</a>
-            <a href="#"><i class="fas fa-external-link-alt"></i> Demo</a>
+      </div>
+
+      <!-- Medium Level Projects -->
+      <div class="difficulty-category">
+        <h3 class="difficulty-title">
+          <span class="difficulty-badge medium">Medium</span>
+          Intermediate Projects
+        </h3>
+        <div class="projects-grid">
+          <div class="project-card medium-project">
+            <h4>E-Commerce Store</h4>
+            <p>Full-stack e-commerce application with user authentication, product catalog, shopping cart, and payment integration using Stripe API.</p>
+            <div class="tech-stack">
+              <span class="tech-tag">React</span>
+              <span class="tech-tag">Node.js</span>
+              <span class="tech-tag">MongoDB</span>
+              <span class="tech-tag">Stripe API</span>
+            </div>
+            <div class="project-links">
+              <a href="#"><i class="fab fa-github"></i> Code</a>
+              <a href="#"><i class="fas fa-external-link-alt"></i> Demo</a>
+            </div>
+          </div>
+          <div class="project-card medium-project">
+            <h4>Weather Dashboard</h4>
+            <p>Dynamic weather application with real-time data from OpenWeather API, location-based forecasts, and interactive charts for weather trends.</p>
+            <div class="tech-stack">
+              <span class="tech-tag">React</span>
+              <span class="tech-tag">REST API</span>
+              <span class="tech-tag">Chart.js</span>
+              <span class="tech-tag">Geolocation</span>
+            </div>
+            <div class="project-links">
+              <a href="#"><i class="fab fa-github"></i> Code</a>
+              <a href="#"><i class="fas fa-external-link-alt"></i> Demo</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Hard Level Projects -->
+      <div class="difficulty-category">
+        <h3 class="difficulty-title">
+          <span class="difficulty-badge hard">Hard</span>
+          Advanced Projects
+        </h3>
+        <div class="projects-grid">
+          <div class="project-card hard-project">
+            <h4>Real-Time Chat Application</h4>
+            <p>Scalable real-time chat application with WebSocket connections, user authentication, private/group chats, file sharing, and message encryption.</p>
+            <div class="tech-stack">
+              <span class="tech-tag">React</span>
+              <span class="tech-tag">Socket.io</span>
+              <span class="tech-tag">Node.js</span>
+              <span class="tech-tag">PostgreSQL</span>
+              <span class="tech-tag">JWT</span>
+              <span class="tech-tag">Redis</span>
+            </div>
+            <div class="project-links">
+              <a href="#"><i class="fab fa-github"></i> Code</a>
+              <a href="#"><i class="fas fa-external-link-alt"></i> Demo</a>
+            </div>
+          </div>
+          <div class="project-card hard-project">
+            <h4>Microservices Architecture</h4>
+            <p>Distributed microservices system with Docker containerization, API Gateway, service discovery, monitoring, and CI/CD pipeline deployment.</p>
+            <div class="tech-stack">
+              <span class="tech-tag">Docker</span>
+              <span class="tech-tag">Kubernetes</span>
+              <span class="tech-tag">Node.js</span>
+              <span class="tech-tag">MongoDB</span>
+              <span class="tech-tag">API Gateway</span>
+              <span class="tech-tag">Jenkins</span>
+            </div>
+            <div class="project-links">
+              <a href="#"><i class="fab fa-github"></i> Code</a>
+              <a href="#"><i class="fas fa-external-link-alt"></i> Demo</a>
+            </div>
           </div>
         </div>
       </div>
