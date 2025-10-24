@@ -309,3 +309,30 @@ footer {
     margin: 0.25rem;
   }
 }
+
+/* Full-page background mount */
+html, body {
+  height: 100%;
+}
+
+#background-root {
+  position: fixed;
+  inset: 0;
+  z-index: 0;
+  overflow: hidden;
+  pointer-events: none;
+  background: linear-gradient(120deg, #0f2027, #203a43, #2c5364);
+  background-size: 300% 300%;
+  animation: gradientShift 20s ease infinite;
+}
+
+@keyframes gradientShift {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+main, footer {
+  position: relative;
+  z-index: 1;
+}
